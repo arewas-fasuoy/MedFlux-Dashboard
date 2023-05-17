@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>login - exported project</title>
+    <meta property="og:title" content="login - exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./login.css" rel="stylesheet" />
+
+      <div class="login-container">
+        <div class="login-desktop1">
+          <img
+            alt="conflux1114"
+            src="public/playground_assets/conflux1114-6mx-1500w.png"
+            class="login-conflux1"
+          />
+          <div class="login-rectangle4">
+            <div class="login-container01">
+              <div class="login-container02"></div>
+            </div>
+            <div class="login-container03"></div>
+            <div class="login-container04"></div>
+          </div>
+          <div class="login-rectangle41">
+            <div class="login-container05">
+              <div class="login-container06">
+                <div class="login-container07">
+                  <input
+                    id="username"
+                    type="text"
+                    placeholder="Enter Username"
+                    class="login-textinput input"
+                  />
+                </div>
+              </div>
+              <a href="home.html" class="login-navlink button">Cancel</a>
+            </div>
+            <div class="login-container08">
+              <div class="login-container09">
+                <input
+                  id="password"
+                  type="password"
+                  placeholder="Enter Password"
+                  class="login-textinput1 input"
+                />
+              </div>
+              <div>
+                <a href="#" class="login-navlink1 button input" id="loginUser">Login</a>
+                <!-- <span>
+                  <span>Login&nbsp;</span>
+                  <br />
+                </span> -->
+              </div>
+            </div>
+            <select required="" class="login-select input" id="userType">
+              <option value="Patient">Patient</option>
+              <option value="Doctor">Doctor</option>
+              <option value="Admin">Admin</option>
+            </select>
+            <h1 class="login-text03">
+              <span>Login</span>
+              <br />
+            </h1>
+          </div>
+          <span class="login-text06"><span>MedFlux</span></span>
+          <div class="login-rectangle1"></div>
+          <a href="home.html" class="login-text08"><span>MedFlux</span></a>
+          <a
+            href="https://arewasfasuoy.wordpress.com/contact/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="login-text10"
+          >
+            <span>Feedback</span>
+          </a>
+          <a
+            href="https://arewasfasuoy.wordpress.com/contact/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="login-text12"
+          >
+            <span>Contact Me</span>
+          </a>
+          <a
+            href="https://arewasfasuoy.wordpress.com"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="login-text14"
+          >
+            <span>Blog</span>
+          </a>
+          <span class="login-text16">
+            <span>An Electronic Healthcare Record System Using Conflux</span>
+          </span>
+          <span class="login-text18">
+            <span>MedFlux: Decentralized Medical System</span>
+          </span>
+          <div class="login-rectangle3"></div>
+          <span class="login-text20">
+            <span>
+              Copyright @ 2023, MedFlux Health care System - All Rights Reserved
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <script src="./package/dist/index.min.js"></script>
+    <script>
+
+      // // Login
+      // document.getElementById("checkUser").addEventListener("click", async function() {
+      //   var username = document.getElementById("username").value;
+      //   var password = document.getElementById("password").value;
+      //   alert("Username: " + username + " - " + password);
+
+      //   // Read the CSV file from IPFS
+      //   const ipfsHash = "QmbiBCXUgaRsyoQsJE9czM6WAvdNLijB26RYZwFfiQG2Em";
+      //   const fileName = "patients_info.csv";
+      //   const fileContent = await readCsvFromIpfs(ipfsHash, fileName);
+      //   console.log(fileContent);
+       
+      // });
+      var csvHash = "QmbiBCXUgaRsyoQsJE9czM6WAvdNLijB26RYZwFfiQG2Em";
+      const ipfsNodeUrl = "https://ipfs.io/ipfs/";
+      function validate() {
+        // Get the username and password from the input fields
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        var selectedUser = document.getElementById("userType").value;
+        console.log(username);
+        console.log(password);
+        console.log(selectedUser);
+
+        // Read the CSV file
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+          if (xhr.readyState === 4 && xhr.status === 200) {
+            const contents = xhr.responseText;
+            const lines = contents.split("\n");
+            let valid = false;
+            let ID = null;
+            // Check if the username and password match any entries in the CSV file
+            for (let i = 0; i < lines.length; i++) {
+              const line = lines[i].trim();
+              const fields = line.split(",");
+              if (fields[0] === username && fields[1] === password) {
+                valid = true;
+                ID = fields[2];
+                break;
+              }
+              else{
+                console.log("Not able to find any user.");
+              }
+            }
+            // Show an alert based on the validation result
+            if (valid) {
+              console.log("user login successfiully");
+              alert("Validation successful!");
+              if(selectedUser === "Admin"){
+                window.location.href = "admin.html?id="+encodeURIComponent(ID);
+              }
+              else if(selectedUser === "Doctor"){
+                window.location.href = "doctor.html?id="+encodeURIComponent(ID);
+              }
+              else if(selectedUser === "Patient"){
+                window.location.href = "patient.html?id="+encodeURIComponent(ID);
+              }
+            } 
+            else {
+              console.log("Validation failed!, Invalid user...");
+              alert("Validation failed!, Invalid user...");
+            }
+          }
+        };
+        if(selectedUser === "Patient"){
+
+          var conn = atob("aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1jRDhLdVg5cXpZcHRraVNOZWh2SFNHdUp1OFRBNEJtMUJqVXRRZldwUlRFWD9maWxlbmFtZT1wYXRpZW50X2RhdGFfaW5mby5jc3Y=");
+          xhr.open("GET", conn, true);
+          xhr.send();
+        }
+        else if(selectedUser === "Doctor"){
+          var conn = atob("aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1UYlp1VkZza3Q5dUMydlNBQzNBNVJvcUt6NEQ2RXkyd1VCbjV2WHZ2QjFodD9maWxlbmFtZT1kb2N0b3JzX2RhdGEuY3N2");          
+          xhr.open("GET", conn, true);
+          xhr.send();
+        }
+        else if(selectedUser === "Admin"){
+          var conn = atob("aHR0cHM6Ly9pcGZzLmlvL2lwZnMvUW1SOUVmRWhDQTcxRGFWS1o4WHBSNjdCZEdpdTNiWGpQcEt0NDlBSFhvTFR3cT9maWxlbmFtZT1hZG1pbl9kYXRhLmNzdg==");
+          xhr.open("GET", conn, true);
+          xhr.send();
+        }
+    }
+      document.getElementById("loginUser").addEventListener("click", async function() {
+        validate();
+    });
+    </script>
+  </body>
+</html>

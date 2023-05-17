@@ -1,0 +1,380 @@
+.add-patient-container {
+  min-height: 100vh;
+}
+.add-patient-desktop1 {
+  width: 100%;
+  height: 622px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.add-patient-conflux1 {
+  left: -46px;
+  width: 1455px;
+  bottom: 9px;
+  height: 551px;
+  opacity: 0.90;
+  position: absolute;
+  border-color: transparent;
+}
+.add-patient-rectangle4 {
+  top: 46px;
+  left: -16px;
+  width: 1392px;
+  height: 463px;
+  margin: var(--dl-space-space-unit);
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  background-size: cover;
+  justify-content: center;
+  background-image: url("public/playground_assets/rectangle4844-5v-1400w.png");
+  background-position: center;
+}
+.add-patient-textinput {
+  top: 94px;
+  left: 326px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-textinput01 {
+  top: 96px;
+  left: 832px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-textinput02 {
+  top: 150px;
+  left: 832px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-textinput03 {
+  top: 204px;
+  left: 832px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-textinput04 {
+  top: 256px;
+  left: 834px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-textinput05 {
+  top: 148px;
+  left: 328px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-textinput06 {
+  top: 200px;
+  left: 328px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-textinput07 {
+  top: 252px;
+  left: 328px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-textinput08 {
+  top: 304px;
+  left: 328px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-textinput09 {
+  top: 308px;
+  left: 834px;
+  position: absolute;
+  align-self: flex-start;
+  text-align: left;
+}
+.add-patient-container1 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.add-patient-container2 {
+  flex: 1;
+  width: 100%;
+  height: 68px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  margin-top: var(--dl-space-space-unit);
+  padding-top: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.add-patient-text {
+  top: -130px;
+  left: -528px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text01 {
+  top: -132px;
+  color: rgb(255, 255, 255);
+  right: -108px;
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text02 {
+  top: -74px;
+  left: 36px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text03 {
+  top: -24px;
+  left: 30px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text04 {
+  color: rgb(255, 255, 255);
+  right: -118px;
+  bottom: -42px;
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text07 {
+  top: -80px;
+  left: -510px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text08 {
+  top: -26px;
+  left: -470px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text09 {
+  left: -470px;
+  color: rgb(255, 255, 255);
+  bottom: -43px;
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text10 {
+  left: -468px;
+  color: rgb(255, 255, 255);
+  bottom: -91px;
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text11 {
+  left: -20px;
+  color: rgb(255, 255, 255);
+  width: var(--dl-size-size-large);
+  bottom: -91px;
+  position: absolute;
+  font-size: 20px;
+  align-self: flex-start;
+}
+.add-patient-text15 {
+  top: 18px;
+  left: 601px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  font-style: normal;
+  font-weight: 400;
+}
+.add-patient-navlink {
+  left: 513px;
+  bottom: 35px;
+  position: absolute;
+  font-size: 20px;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: #f2f2f2;
+}
+.add-patient-text18 {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.add-patient-button {
+  left: 711px;
+  bottom: 37px;
+  position: absolute;
+  font-size: 20px;
+  border-width: 0px;
+  background-color: #f2f2f2;
+}
+.add-patient-text21 {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.add-patient-text24 {
+  top: 17px;
+  left: 230px;
+  color: rgba(170, 165, 165, 1);
+  width: 145px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.add-patient-rectangle1 {
+  top: 0px;
+  left: -4px;
+  width: 1440px;
+  height: 62px;
+  display: flex;
+  position: absolute;
+  border-color: transparent;
+  background-color: #004c99;
+}
+.add-patient-text26 {
+  top: 17px;
+  left: 230px;
+  color: #ffffff;
+  width: 145px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.add-patient-text28 {
+  top: 17px;
+  left: 375px;
+  color: #ffffff;
+  width: 145px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.add-patient-text30 {
+  top: 17px;
+  left: 520px;
+  color: #ffffff;
+  width: 167px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.add-patient-text32 {
+  top: 17px;
+  left: 686px;
+  color: #ffffff;
+  width: 167px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: normal;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.add-patient-rectangle3 {
+  left: -7px;
+  width: 1440px;
+  bottom: 0px;
+  height: 50px;
+  display: flex;
+  position: absolute;
+  border-color: transparent;
+  background-color: #004c99;
+}
+.add-patient-text34 {
+  left: 400px;
+  color: #ffffff;
+  width: 710px;
+  bottom: 10px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
